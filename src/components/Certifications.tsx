@@ -1,3 +1,4 @@
+"use client"
 import { Card, CardContent } from '@/components/ui/card'
 import { certifications } from '@/data/certifications'
 
@@ -9,7 +10,7 @@ export function Certifications() {
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-neutral-400 dark:via-white dark:to-neutral-500 dark:animate-text-shimmer">Professional Certifications</h2>
         <div className="space-y-4">
           {certifications.map((cert, index) => (
-            <Card key={index} className="bg-gradient-to-br border-hidden from-zinc-300 via-zinc-300 to-emerald-800 dark:from-black dark:via-emerald-950 dark:to-emerald-600 rounded-lg shadow-md animate-subtle-wave border border-neon-blue">
+            <Card key={index} className="bg-gradient-to-br border-hidden from-white via-zinc-100 to-white dark:from-black dark:via-emerald-950 dark:to-emerald-600 rounded-lg shadow-md animate-subtle-wave border border-neon-blue">
               <CardContent className="p-4 flex items-start">
                 <div className="mr-4 mt-1 text-gray-700 dark:text-gray-300">
                   {cert.icon({})}
