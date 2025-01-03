@@ -76,6 +76,10 @@ export default {
 				"0%, 100%": { transform: "translateY(0)" },
 				"50%": { transform: "translateY(-5%)" },
 			},
+			scroll: {
+				"0%": { transform: "translateX(0%)" },
+				"100%": { transform: "translateX(-100%)" },
+			},
 		},
 		animation: {
 			"accordion-down": "accordion-down 0.3s ease-out",
@@ -83,6 +87,7 @@ export default {
 			"gradient-x": "gradient-x 15s ease infinite",
 			"text-shimmer": "text-shimmer 2.5s ease-out infinite",
 			"subtle-wave": "subtle-wave 6s ease-in-out infinite",
+			"scroll": "scroll 20s linear infinite",
 		  },
   	}
   },
