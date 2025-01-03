@@ -18,19 +18,19 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <Card className="sticky top-4 z-50 mx-4 mt-4 bg-gradient-to-r from-white via-gray-100 to-white dark:from-zinc-900 dark:via-zinc-800 dark:to-zinc-900 shadow-lg backdrop-blur-sm">
+    <Card className="sticky border-hidden top-4 z-50 mx-4 mt-4 bg-gradient-to-r from-white via-gray-100 to-white dark:from-black dark:via-zinc-900 dark:to-black shadow-lg backdrop-blur-sm">
       <CardContent className="p-0">
         <div className="container mx-auto px-4 py-2">
           <div className="flex justify-between items-center">
-            <div className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-600 to-zinc-600 dark:from-neutral-400 dark:to-zinc-600">
-              Portfolio Web
+            <div className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-600 to-zinc-600 dark:from-neutral-200 dark:via-zinc-400 dark:to-zinc-200">
+              @super_luui
             </div>
             <nav className="hidden md:flex items-center space-x-6">
               {navItems.map((item) => (
                 <a
                   key={item.href}
                   href={item.href}
-                  className="font-semibold text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition duration-300"
+                  className="font-semibold text-gray-700 dark:text-gray-300 hover:text-zinc-600 dark:hover:text-zinc-400 transition duration-300"
                 >
                   {item.label}
                 </a>
