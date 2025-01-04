@@ -3,7 +3,7 @@ import { experiences } from '@/data/experience'
 
 export function Experience() {
   return (
-    <Card className="col-span-full border-hidden md:col-span-2 bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-zinc-950 dark:via-zinc-800 dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50 overflow-hidden relative">
+    <Card id='experience' className="col-span-full border-hidden md:col-span-2 bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-zinc-950 dark:via-zinc-800 dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50 overflow-hidden relative">
       <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-200 dark:from-black dark:via-zinc-950 dark:to-black animate-gradient-x"></div>
       <CardContent className="p-6 relative z-10">
         <h2 className="text-4xl md:text-6xl font-extrabold mb-4 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-neutral-400 dark:via-white dark:to-neutral-500 dark:animate-text-shimmer">Professional Experience</h2>
