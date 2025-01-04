@@ -9,21 +9,26 @@ export function Contact() {
       <CardContent className="p-6 relative z-10">
         <h2 className="text-3xl text-center font-bold mb-4 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-neutral-400 dark:via-white dark:to-neutral-500 dark:animate-text-shimmer">Contact</h2>
         <div className="flex justify-center space-x-8">
-          <Button variant="link" size="lg" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 flex flex-col items-center animate-subtle-wave">
-            <Github size={32} />
-            <span className="mt-2">GitHub</span>
-          </Button>
-          <Button variant="link" size="lg" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 flex flex-col items-center animate-subtle-wave">
-            <Linkedin size={32} />
-            <span className="mt-2">LinkedIn</span>
-          </Button>
-          <Button variant="link" size="lg" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 flex flex-col items-center animate-subtle-wave">
-            <Mail size={32} />
-            <span className="mt-2">Email</span>
-          </Button>
+          <a href="https://github.com/Ezzz-Lui" target="_blank" rel="noopener noreferrer">
+            <Button variant="link" size="lg" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 flex flex-col items-center animate-subtle-wave">
+              <Github size={32} />
+              <span className="mt-2">GitHub</span>
+            </Button>
+          </a>
+          <a href="https://linkedin.com/in/lk-ramos" target="_blank" rel="noopener noreferrer">
+            <Button variant="link" size="lg" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 flex flex-col items-center animate-subtle-wave">
+              <Linkedin size={32} />
+              <span className="mt-2">LinkedIn</span>
+            </Button>
+          </a>
+          <a href="mailto:ogn.lui@gmail.com" target="_blank" rel="noopener noreferrer">
+            <Button variant="link" size="lg" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 flex flex-col items-center animate-subtle-wave">
+              <Mail size={32} />
+              <span className="mt-2">Email</span>
+            </Button>
+          </a>
         </div>
       </CardContent>
     </Card>
   )
 }
-
