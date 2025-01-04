@@ -32,16 +32,16 @@ export function Hero() {
           with services and artificial intelligence solutions using Azure.
         </p>
         <div className='space-x-0 space-y-4 md:space-x-6 md:space-y-0 flex flex-col md:flex-row'>
-          <Button variant="link" size="lg" className="rounded-full bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-950 hover:text-zinc-100 transition-colors duration-300">
+          <Button variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-950 hover:text-zinc-100 transition-colors duration-300">
             <GithubIcon className="h-5 w-5" />
           </Button>
-          <Button variant="link" size="lg" className="rounded-full bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-blue-700 hover:text-zinc-100 transition-colors duration-300">
+          <Button variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-blue-700 hover:text-zinc-100 transition-colors duration-300">
             <LinkedIn className="h-5 w-5 " />
           </Button>
-          <Button variant="link" size="lg" className="rounded-full bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-700 hover:text-zinc-100 transition-colors duration-300">
+          <Button variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-700 hover:text-zinc-100 transition-colors duration-300">
             <FileText className="h-5 w-5 " />
           </Button>
-          <Button variant="link" size="lg" className="rounded-full bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-teal-700 hover:text-zinc-100 transition-colors duration-300">
+          <Button variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-teal-700 hover:text-zinc-100 transition-colors duration-300">
             <MailIcon className="h-5 w-5 " />
           </Button>
         </div>
