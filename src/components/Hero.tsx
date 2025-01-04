@@ -1,6 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { DockIcon, FileText, GitlabIcon as GitHub, GithubIcon, LinkedinIcon as LinkedIn, MailIcon } from 'lucide-react'
+import Link from 'next/link'
 
 export function Hero() {
   return (
@@ -31,27 +32,27 @@ export function Hero() {
           including PostgreSQL and SQL Server. Currently focused on cloud architecture, deployments 
           with services and artificial intelligence solutions using Azure.
         </p>
-        <div className='space-x-0 space-y-4 md:space-x-6 md:space-y-0 flex flex-col md:flex-row'>
-        <a href="https://github.com/Ezzz-Lui" target="_blank" rel="noopener noreferrer">
-          <Button variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-950 hover:text-zinc-100 transition-colors duration-300">
-            <GithubIcon className="h-5 w-5" />
-          </Button>
-        </a>
-        <a href="https://linkedin.com/in/lk-ramos" target="_blank" rel="noopener noreferrer">
-          <Button variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-blue-700 hover:text-zinc-100 transition-colors duration-300">
-            <LinkedIn className="h-5 w-5 " />
-          </Button>
-        </a>
-        <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-          <Button variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-700 hover:text-zinc-100 transition-colors duration-300">
-            <FileText className="h-5 w-5 " />
-          </Button>
-        </a>
-        <a href="mailto:ogn.lui@gmail.com" target="_blank" rel="noopener noreferrer">
-          <Button variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-teal-700 hover:text-zinc-100 transition-colors duration-300">
-            <MailIcon className="h-5 w-5 " />
-          </Button>
-        </a>
+        <div className='space-y-4 md:space-y-0 md:space-x-6 flex flex-col md:flex-row'>
+            <Button asChild variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-950 hover:text-zinc-100 transition-colors duration-300" >
+              <Link href="https://github.com/Ezzz-Lui" target='_blank'>
+                <GithubIcon className="h-5 w-5" />
+              </Link>
+            </Button>
+            <Button asChild variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-blue-700 hover:text-zinc-100 transition-colors duration-300">
+              <Link href="https://www.linkedin.com/in/lk-ramos" target='_blank'>
+                <LinkedIn className="h-5 w-5" />
+              </Link>
+            </Button>
+            <Button asChild variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-700 hover:text-zinc-100 transition-colors duration-300">
+              <Link href="/cv.pdf" target='_blank'>
+                <FileText className="h-5 w-5 " />
+              </Link>
+            </Button>
+            <Button asChild variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-teal-700 hover:text-zinc-100 transition-colors duration-300">
+              <Link href="mailto:ogn.lui@gmail.com" target='_blank'>
+                <MailIcon className="h-5 w-5 " />
+              </Link>
+            </Button>
         </div>
       </CardContent>
     </Card>
