@@ -1,4 +1,5 @@
-# Mi portafolio Web :)
+# Mockups
+![Group 3](https://github.com/user-attachments/assets/1d9912a5-cda3-4e5b-9992-8d600dba93e9)
 ![272_2x_shots_so](https://github.com/user-attachments/assets/f11fa86c-123b-48ac-aa80-fc987f36a134)
 ![165_2x_shots_so](https://github.com/user-attachments/assets/2404635c-8807-4696-8520-506153f31fbe)
 
