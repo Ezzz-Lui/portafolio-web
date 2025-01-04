@@ -8,10 +8,8 @@ import { Menu } from 'lucide-react'
 import { ThemeToggle } from './ThemeToggle'
 
 const navItems = [
-  { href: '#home', label: 'Home' },
   { href: '#projects', label: 'Projects' },
   { href: '#experience', label: 'Experience' },
-  { href: '#cv', label: 'CV' },
 ]
 
 export function Header() {
