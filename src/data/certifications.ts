@@ -23,6 +23,12 @@ export const certifications = [
     icon: Platzi
   },
   {
+    name: 'Fullstack Developer with NextJs',
+    issuer: 'Platzi',
+    date: 'March 2025',
+    icon: Platzi
+  },
+  {
     name: 'Cloud Digital Leader',
     issuer: 'Google Cloud x Platzi',
     date: 'March 2024',
@@ -34,11 +40,5 @@ export const certifications = [
     date: 'January 2023',
     icon: Microsoft
   },
-  {
-    name: 'Master Python for Data Analyst',
-    issuer: 'Udemy',
-    date: 'December 2024',
-    icon: Udemy
-  }
 ]
 
