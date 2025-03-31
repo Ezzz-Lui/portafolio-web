@@ -20,10 +20,12 @@ export const projects = [
       { name: 'Python', icon: Python },
       { name: 'Azure', icon: MicrosoftAzure },
       { name: 'TailwindCSS', icon: TailwindCSS }
-    ]
+    ],
+    date: 'March 2024',
+    category: 'Backend Development'
   },
   { 
-    title: 'Point of Sale System- by Grupo Manzur', 
+    title: 'Point of Sale System - by Grupo Manzur', 
     description: 'The Point of Sale System is a web application developed with NextJs that allows users to manage their sales and inventory. The application is deployed on Vercel and uses various technologies to provide an efficient and reliable user experience.',
     skills: [
       { name: 'Typescript', icon: TypeScript },
@@ -32,7 +34,9 @@ export const projects = [
       { name: 'Vercel', icon: Vercel },
       { name: 'Supabase', icon: Supabase },
       { name: 'Docker', icon: Docker }
-    ]
+    ],
+    date: 'March 2024',
+    category: 'Fullstack Development'
   },
   { 
     title: 'Final Project - Probability and Statistics ITCA 2024', 
@@ -42,7 +46,9 @@ export const projects = [
       { name: 'Javascript', icon: JavaScript },
       { name: 'TailwindCSS', icon: TailwindCSS },
       { name: 'Vercel', icon: Vercel }
-    ]
+    ],
+    date: 'March 2024',
+    category: 'Web Development'
   },
   { 
     title: 'QueryWise AI', 
@@ -52,7 +58,9 @@ export const projects = [
       { name: 'Typescript', icon: TypeScript },
       { name: 'Python', icon: Python },
       { name: 'Azure AI', icon: MicrosoftAzure }
-    ]
+    ],
+    date: 'March 2024',
+    category: 'Artificial Intelligence'
   },
   { 
     title: 'RSM - Final Data Analyst Project', 
@@ -60,7 +68,9 @@ export const projects = [
     skills: [
       { name: 'PostgreSQL', icon: PostgreSQL },
       { name: 'Python', icon: Python },
-    ]
+    ],
+    date: 'March 2024',
+    category: 'Data Analysis'
   },
   { 
     title: 'Samsung Innovation Campus - Module Project', 
@@ -69,7 +79,9 @@ export const projects = [
       { name: 'Python', icon: Python },
       { name: 'Django', icon: Django },
       { name: 'Docker', icon: Docker }
-    ]
+    ],
+    date: 'March 2024',
+    category: 'Fullstack Development'
   },
 ]
 
