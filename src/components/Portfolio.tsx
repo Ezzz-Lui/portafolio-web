@@ -5,6 +5,7 @@ import { Experience } from './Experience'
 import { Certifications } from './Certifications'
 import { Contact } from './Contact'
 import { Stack } from './Stack'
+import  Blog  from './blog'
 
 export function Portfolio() {
   return (
@@ -25,9 +26,10 @@ export function Portfolio() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Hero />
           <Stack />
-          <Projects />
           <Experience />
           <Certifications />
+          {/* <Projects /> */}
+          <Blog />
           <Contact />
         </div>
       </main>
