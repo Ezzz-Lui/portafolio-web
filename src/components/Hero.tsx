@@ -2,6 +2,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { DockIcon, FileText, GitlabIcon as GitHub, GithubIcon, LinkedinIcon as LinkedIn, MailIcon } from 'lucide-react'
 import Link from 'next/link'
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 export function Hero() {
   return (
@@ -16,7 +17,7 @@ export function Hero() {
       </div>
       <CardContent className="relative z-10 p-6 md:p-12">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-neutral-400 dark:via-white dark:to-neutral-500 dark:animate-text-shimmer">
-          Luis Ramos
+          <TextGenerateEffect filter words="Hi, I'm Luis Ramos" />
         </h1>
         <p className="text-xl md:text-3xl font-bold mb-6 dark:text-gray-300">
           <span className="opacity-70 dark:opacity-90">Backend Developer</span> | 
