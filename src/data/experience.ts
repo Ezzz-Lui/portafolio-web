@@ -21,13 +21,19 @@ export const experiences = [
       title: 'Developer Junior Trainee',
       company: 'Kata Software ES',
       period: '2023 - 2024',
-      description: 'SQL Development, Reporting with Report Builder and SQL Server, SQL Database and Servers'
+      description: 'SQL Development, Reporting with Report Builder and SQL Server, SQL Databases and Servers for dynamic reports, and data extraction.'
+    },
+    {
+      title: 'Developer Trainee',
+      company: 'CityLab',
+      period: '2023 - 2024',
+      description: 'SQL querys and DB relational servers, datasets with SQL Server and query optimization for data sources.'
     },
     {
       title: 'Intern - SQL Developer Jr',
       company: 'CEL - Comision Ejecutiva Hidroelectrica del Rio Lempa',
       period: '2023',
-      description: 'ORACLE database fundamentals, Data modeling in PL/SQL, Reporting and documentation of systems, SQL'
+      description: 'ORACLE database fundamentals, Data modeling in PL/SQL, Reporting and documentation of systems and PLSQL.'
     }
   ]
   
