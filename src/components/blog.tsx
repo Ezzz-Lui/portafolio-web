@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect"
 
 export default function Blog() {
   return (
-    <section id="blog" className="w-full py-12 md:py-24 lg:py-3 col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-black dark:via-zinc-950 dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50">
+    <section id="projects" className="w-full py-12 md:py-24 lg:py-3 col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-black dark:via-zinc-950 dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
@@ -15,7 +15,7 @@ export default function Blog() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={index}
@@ -27,7 +27,7 @@ export default function Blog() {
               <CardSpotlight className="h-full">
                 <div className="p-6">
                   <div className="flex justify-between items-center mb-2">
-                    <span className="text-sm text-blue-400">{project.category}</span>
+                    <span className="text-sm text-teal-400">{project.category}</span>
                     <span className="text-sm text-gray-400">{project.date}</span>
                   </div>
                   <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
@@ -44,17 +44,6 @@ export default function Blog() {
               </CardSpotlight>
             </motion.div>
           ))}
-        </div>
-
-        <div className="flex justify-center mt-12">
-          <motion.a
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            href="#"
-            className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-black shadow transition-colors hover:bg-gray-200"
-          >
-            View All Articles
-          </motion.a>
         </div>
       </div>
     </section>
