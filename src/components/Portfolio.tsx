@@ -23,7 +23,7 @@ export function Portfolio() {
       <Header />
 
       <main className="container mx-auto px-4 py-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
           <Hero />
           <Stack />
           <Experience />
