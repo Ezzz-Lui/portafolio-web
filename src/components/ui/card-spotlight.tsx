@@ -42,7 +42,7 @@ export const CardSpotlight = ({ children, className }: CardSpotlightProps) => {
       onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className={cn("relative overflow-hidden rounded-xl border border-gray-800 bg-black p-4 shadow-lg", className)}
+      className={cn("relative overflow-hidden rounded-xl border dark:border-gray-800 dark:bg-black p-4 shadow-lg", className)}
     >
       <div
         className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
