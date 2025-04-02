@@ -11,7 +11,7 @@ export function Stack() {
         <Card className="col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-black dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50">
             <CardContent className="p-6 flex flex-col items-center">
             <TextGenerateEffect filter words="Tech Stack" />
-                <div className="max-w-3xl overflow-x-auto">
+                <div className="max-w-4xl overflow-x-auto">
                     <div className="flex gap-4">
                         {projects.map((project, index) => (
                             <Card key={index} className="min-w-[300px] border-hidden bg-gradient-to-r from-gray-50 via-white to-gray-100 dark:from-black dark:via-zinc-950 dark:to-black rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -19,7 +19,7 @@ export function Stack() {
                                     <div className="flex flex-wrap gap-2 justify-center">
                                         {project.skills.map((skill, skillIndex) => (
                                             <Badge key={skillIndex} variant="outline" className="font-bold border-hidden text-xs text-gray-800 dark:text-gray-200 flex items-center gap-1">
-                                                {skill.icon({ className: 'w-10 h-10' })}
+                                                {skill.icon({ className: 'w-12 h-12' })}
                                             </Badge>
                                         ))}
                                     </div>
