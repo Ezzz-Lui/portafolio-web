@@ -6,15 +6,15 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 export function Hero() {
   return (
-    <Card className="col-span-full rounded-3xl shadow-lg overflow-hidden relative border-hidden">
-      <div className="absolute dark:inset-0 dark:bg-gradient-to-br dark:from-black dark:to-zinc-950 dark:animate-gradient-x">
+    <Card className=" rounded-3xl shadow-lg overflow-hidden relative border-hidden">
+      {/* <div className="absolute dark:inset-0 dark:bg-gradient-to-br dark:from-black dark:to-zinc-950 dark:animate-gradient-x">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-black via-black to-black animate-pulse"></div>
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-black via-white to-transparent animate-pulse delay-75"></div>
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-black via-black to-transparent animate-pulse delay-150"></div>
         </div>
         <div className="absolute inset-0 bg-[url('/noise.jpg')] opacity-5 mix-blend-overlay"></div>
-      </div>
+      </div> */}
       <CardContent className="relative z-10 p-6 md:p-12">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-neutral-400 dark:via-white dark:to-neutral-500 dark:animate-text-shimmer">
           <TextGenerateEffect filter words="Hi, I'm Luis Ramos" />
@@ -33,7 +33,7 @@ export function Hero() {
           including PostgreSQL and SQL Server. Currently focused on cloud architecture, deployments 
           with services and artificial intelligence solutions using Azure.
         </p>
-        <div className='space-y-4 md:space-y-0 md:space-x-6 flex flex-col md:flex-row'>
+        <div className='md:space-y-0 space-x-2 md:space-x-6 flex flex-cols-4'>
             <Button asChild variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-950 hover:text-zinc-100 transition-colors duration-300" >
               <Link href="https://github.com/Ezzz-Lui" target='_blank'>
                 <GithubIcon className="h-5 w-5" />
