@@ -20,7 +20,7 @@ export function Certifications() {
 
 function GlowingCard({ cert }: { cert: any }) {
   return (
-    <div className="relative rounded-2.5xl border p-2 md:rounded-3xl md:p-3">
+    <div className="relative rounded-xl p-2 md:rounded-3xl md:p-3">
       <GlowingEffect
         spread={80}
         glow={true}
@@ -28,8 +28,9 @@ function GlowingCard({ cert }: { cert: any }) {
         proximity={64}
         inactiveZone={0.01}
         variant="default"
+        className="rounded-xl md:rounded-3xl"
       />
-      <Card className="relative overflow-hidden rounded-xl border-0.75 p-6 shadow-lg dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
+      <Card className="relative overflow-hidden rounded-lg border-0.75 p-6 shadow-lg dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
         <CardContent className="p-2 flex items-start">
           <div className="mr-4 mt-1 text-gray-700 dark:text-gray-300">
             {cert.icon({})}
