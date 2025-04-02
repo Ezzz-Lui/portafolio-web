@@ -21,6 +21,7 @@ import Microsoft from "@/icons/microsoft"
 import Zod from "@/icons/zod"
 import Vite from "@/icons/vite"
 import MongoDB from "@/icons/mongo"
+import Vue from "@/icons/vue"
 
 export const projects = [
   { 
@@ -44,7 +45,8 @@ export const projects = [
       { icon: Slack },
       { icon: JetBrainsPyCharm },
       { icon: Microsoft },
-      { icon: MongoDB }
+      { icon: MongoDB },
+      { icon: Vue },
     ]
   }
 ]
