@@ -20,7 +20,7 @@ export function Hero() {
           <TextGenerateEffect filter words="Hi, I'm Luis Ramos" />
         </h1>
         <p className="text-xl md:text-3xl font-bold mb-6 dark:text-gray-300">
-          <span className="opacity-70 dark:opacity-90">Backend Developer</span> | 
+          <span className="opacity-70 dark:opacity-90">Software Developer</span> | 
           <span className="opacity-70 dark:opacity-80"> Azure AI Engineer Associate</span> | 
           <span className="opacity-70 dark:opacity-70"> Data Analyst Jr</span>
         </p>
