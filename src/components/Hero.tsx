@@ -25,13 +25,7 @@ export function Hero() {
           <span className="opacity-70 dark:opacity-70"> Data Analyst</span>
         </p>
         <p className="mb-8 max-w-3xl text-base md:text-xl leading-relaxed text-gray-600 dark:text-gray-300">
-          Technician with a background in Intelligent Computer Engineering, specialized in 
-          <span className="font-semibold dark:text-gray-100"> backend development</span>, 
-          <span className="font-semibold dark:text-gray-200"> cloud services</span> and a solid 
-          <span className="font-semibold dark:text-gray-100"> DevOps ecosystem</span>. 
-          Experience in technologies such as NestJS, Azure and CI/CD, as well as database management 
-          including PostgreSQL and SQL Server. Currently focused on cloud architecture, deployments 
-          with services and artificial intelligence solutions using Azure.
+          I’m passionate about building digital solutions from start to finish. With a strong foundation in both <span className="font-semibold dark:text-gray-100">frontend</span> and <span className="font-semibold dark:text-gray-100">backend</span> development, I enjoy creating user-friendly interfaces as much as designing robust server-side systems. My experience covers modern frameworks, cloud services, and database management, allowing me to bridge the gap between technology and real-world needs. Whether you’re technical or not, I’m here to help turn ideas into reliable, scalable applications.
         </p>
         <div className="flex flex-wrap justify-center md:justify-start items-center gap-2 md:gap-6 mb-4">
             <Button asChild variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-950 hover:text-zinc-100 transition-colors duration-300" >
