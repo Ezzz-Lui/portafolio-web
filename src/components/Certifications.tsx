@@ -30,7 +30,7 @@ function GlowingCard({ cert }: { cert: any }) {
         variant="default"
         className="rounded-xl md:rounded-3xl"
       />
-      <Card className="relative overflow-hidden rounded-lg border-0.75 p-6 shadow-lg dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
+      <Card className="relative overflow-hidden rounded-lg border-0.75 p-6 shadow-lg dark:bg-black">
         <CardContent className="p-2 flex items-start">
           <div className="mr-4 mt-1 text-gray-700 dark:text-gray-300">
             {cert.icon({})}
