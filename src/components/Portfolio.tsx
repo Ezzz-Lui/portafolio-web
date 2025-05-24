@@ -27,9 +27,9 @@ export function Portfolio() {
           <Hero />
           <Stack />
           <Experience />
-          <Certifications />
           {/* <Projects /> */}
           <Blog />
+          <Certifications />
           <Contact />
         </div>
       </main>
