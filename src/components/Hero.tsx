@@ -33,7 +33,7 @@ export function Hero() {
           including PostgreSQL and SQL Server. Currently focused on cloud architecture, deployments 
           with services and artificial intelligence solutions using Azure.
         </p>
-        <div className='md:space-y-0 space-x-2 md:space-x-6 flex flex-cols-4'>
+        <div className="flex flex-wrap justify-center md:justify-start items-center gap-2 md:gap-6 mb-4">
             <Button asChild variant="link" size="lg" className="rounded-full dark:bg-gradient-to-r dark:from-black dark:via-zinc-900 dark:to-black bg-gray-100 dark:bg-zinc-800 text-black dark:text-white border-zinc-700 hover:bg-zinc-950 hover:text-zinc-100 transition-colors duration-300" >
               <Link href="https://github.com/Ezzz-Lui" target='_blank'>
                 <GithubIcon className="h-5 w-5" />
