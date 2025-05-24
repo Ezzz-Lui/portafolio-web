@@ -28,8 +28,8 @@ export function Portfolio() {
           <Stack />
           <Experience />
           {/* <Projects /> */}
-          <Blog />
           <Certifications />
+          <Blog />
           <Contact />
         </div>
       </main>
