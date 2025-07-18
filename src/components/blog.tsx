@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect"
 
 export default function Blog() {
   return (
-    <section id="projects" className="w-full py-12 md:py-24 lg:py-3 col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-black dark:via-black dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50">
+    <section id="projects" className="w-full py-12 md:py-24 lg:py-3 col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-stone-950 rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
