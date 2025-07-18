@@ -4,8 +4,8 @@ import { Github, Linkedin, Mail } from 'lucide-react'
 
 export function Contact() {
   return (
-    <Card className="col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-black dark:via-black dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50 mt-6 overflow-hidden relative">
-      <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-200 dark:from-black dark:via-black dark:to-black animate-gradient-x"></div>
+    <Card className="col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-stone-950 dark:via-stone-900 dark:to-stone-950 rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50 mt-6 overflow-hidden relative">
+      <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-200 dark:from-stone-950 animate-gradient-x"></div>
       <CardContent className="p-6 relative z-10">
         <h2 className="text-3xl text-center font-bold mb-4 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-neutral-400 dark:via-white dark:to-neutral-500 dark:animate-text-shimmer">Contact</h2>
         <div className="flex justify-center space-x-8">
