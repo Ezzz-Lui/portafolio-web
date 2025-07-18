@@ -8,18 +8,20 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 export function Stack() {
     return (
-        <Card className="col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-black dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50">
+        <Card className="col-span-full border-hidden bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-stone-950 dark:to-stone-900 rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50">
             <CardContent className="p-6 flex flex-col items-center">
             <TextGenerateEffect filter words="Tech Stack" />
                 <div className="max-w-4xl overflow-x-auto">
                     <div className="flex gap-4">
                         {projects.map((project, index) => (
-                            <Card key={index} className="min-w-[300px] border-hidden bg-gradient-to-r from-gray-50 via-white to-gray-100 dark:from-black dark:via-zinc-950 dark:to-black rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                            <Card key={index} className="min-w-[300px] border-hidden bg-gradient-to-r from-gray-50 via-white to-gray-100 dark:from-stone-950 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                                 <CardContent className="p-4 flex flex-col items-center">
                                     <div className="flex flex-wrap gap-2 justify-center">
                                         {project.skills.map((skill, skillIndex) => (
-                                            <Badge key={skillIndex} variant="outline" className="font-bold border-hidden text-xs text-gray-800 dark:text-gray-200 flex items-center gap-1">
-                                                {skill.icon({ className: 'w-12 h-12' })}
+                                            <Badge key={skillIndex} variant="outline" className="font-bold border-hidden text-xs text-gray-800 dark:text-gray-200 flex items-center gap-1 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 group">
+                                                <div className="group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300">
+                                                    {skill.icon({ className: 'w-12 h-12' })}
+                                                </div>
                                             </Badge>
                                         ))}
                                     </div>
