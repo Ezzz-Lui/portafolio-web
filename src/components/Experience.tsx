@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 
 export function Experience() { 
   return (
-    <Card id='experience' className="max-w-full col-span-full border-hidden md:col-span-2 bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-zinc-950 dark:via-zinc-800 dark:to-black rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50 overflow-hidden relative">
+    <Card id='experience' className="max-w-full col-span-full border-hidden md:col-span-2 bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-zinc-950 dark:via-zinc-800 dark:to-stone-950 rounded-3xl shadow-lg backdrop-blur-sm bg-opacity-50 overflow-hidden relative">
       <div className="absolute inset-0  animate-gradient-x"></div>
       <CardContent className="p-6 relative z-10">
       <TextGenerateEffect filter words="Professional Experience"></TextGenerateEffect>
