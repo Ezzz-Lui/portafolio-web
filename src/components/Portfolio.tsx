@@ -9,14 +9,14 @@ import  Blog  from './blog'
 
 export function Portfolio() {
   return (
-    <div className="min-h-screen text-gray-900 dark:text-gray-100 relative overflow-hidden bg-white dark:bg-black">
+    <div className="min-h-screen text-stone-950 dark:text-gray-100 relative overflow-hidden bg-white dark:bg-stone-950">
       {/* Light mode background */}
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem] dark:hidden">
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_800px_at_100%_200px,#d5c5ff,transparent)]"></div>
       </div>
       
       {/* Dark mode background */}
-      <div className="hidden dark:block absolute inset-0 -z-10 h-full w-full bg-black bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] bg-[size:6rem_4rem]">
+      <div className="hidden dark:block absolute inset-0 -z-10 h-full w-full bg-stone-950 bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] bg-[size:6rem_4rem]">
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_800px_at_100%_200px,#3b2f63,transparent)]"></div>
       </div>
 
