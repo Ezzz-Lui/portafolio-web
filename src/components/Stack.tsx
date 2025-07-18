@@ -18,7 +18,7 @@ export function Stack() {
                                 <CardContent className="p-4 flex flex-col items-center">
                                     <div className="flex flex-wrap gap-2 justify-center">
                                         {project.skills.map((skill, skillIndex) => (
-                                            <Badge key={skillIndex} variant="outline" className="font-bold border-hidden text-xs text-gray-800 dark:text-gray-200 flex items-center gap-1 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 group">
+                                            <Badge key={skillIndex} variant="outline" className="p-4 font-bold border-hidden text-xs text-gray-800 dark:text-gray-200 flex items-center gap-1 hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 group">
                                                 <div className="group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.8)] transition-all duration-300">
                                                     {skill.icon({ className: 'w-12 h-12' })}
                                                 </div>
